@@ -1,0 +1,43 @@
+.absolute{
+    display: none;
+}
+.active{
+    display: block;
+}
+.nav{
+    background-color:  #004AAD;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.dropdown{
+    position: relative;
+}
+.absolute{
+    margin-top: 5px;
+    position: absolute;
+    background-color: #004AAD;
+   
+    border: 2px solid #004AAD;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+li{
+    list-style: none;
+}
+.menu{
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
