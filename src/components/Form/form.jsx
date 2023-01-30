@@ -1,6 +1,8 @@
 import './form.css';
 
 const Form =()=>{
+    
+    
     return(
        <div className="container">
            <h1>Есть вопросы?</h1>
@@ -19,12 +21,12 @@ const Form =()=>{
 
               <div>
                 <label>E-mail *</label><br />
-                <input type="text" />
+                <input id='gmail' type="text" />
               </div>
 
               <div>
                 <label className='fy'>Телефон *</label><br />
-                <input type="text" />
+                <input type="number" ></input>
               </div>
 
            </div>
