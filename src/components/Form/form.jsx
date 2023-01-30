@@ -13,7 +13,7 @@ const Form =()=>{
               </div>
 
               <div>
-                <label>Фамилия</label><br />
+                <label className='fy'>Фамилия</label><br />
                 <input type="text" />
               </div>
 
@@ -23,10 +23,14 @@ const Form =()=>{
               </div>
 
               <div>
-                <label>Телефон *</label><br />
+                <label className='fy'>Телефон *</label><br />
                 <input type="text" />
               </div>
+
            </div>
+           <h3>Сообщение</h3>
+           <textarea cols='155' rows='8'></textarea><br />
+           <button>Отправить</button>
        </div>
     );
 }

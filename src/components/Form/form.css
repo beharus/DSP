@@ -3,8 +3,71 @@
     height: 602px;
     margin-left: 375px;
     margin-top: 2632px;
+    padding: 100px;
 
     background: #FFFFFF;
     box-shadow: 0px 0px 35px 2px rgba(0, 0, 0, 0.25);
     border-radius: 32px;
+}
+
+.form {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+input {
+    box-sizing: border-box;
+
+    width: 506.43px;
+    height: 42.2px;
+    margin: 10px 10px;
+
+    /* Base / White */
+
+    background: #FFFFFF;
+    /* Base / Gray 2 */
+
+    border: 1.11059px solid #CCCCCC;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+label {
+    width: 508.65px;
+    height: 22.21px;
+    margin-left: 20px;
+
+    
+    font-weight: 700;
+    font-size: 19px;
+
+    /* identical to box height, or 143% */
+
+
+    /* Base / Gray */
+
+    color: #000000;
+
+
+
+}
+button{
+    margin: 50px 10px;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+}
+textarea{
+    margin-left: 10px;
+}
+h3{
+    margin-left: 10px;
 }
