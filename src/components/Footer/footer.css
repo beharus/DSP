@@ -33,15 +33,6 @@ a {
     color: rgb(208, 233, 255);
 }
 
-li {
-    display: block;
-    margin: 10px 0;
-}
-
-
-
-
-
 .cts {
     display: block;
     color: rgb(208, 233, 255);
@@ -81,13 +72,14 @@ li {
 }
 
 .txt2 {
+    display: block;
     margin-top: 9px;
     font-size: 17px;
 }
 
-.logo {
-    width: 182px;
+.logo1 {
     height: 148px;
+    width: 169px; 
 }
 .contact {
     margin-bottom: 20px;

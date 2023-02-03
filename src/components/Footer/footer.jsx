@@ -9,12 +9,12 @@ function Footer() {
         <div className='footer'>
 
 
-            <img className="logo" src={require('./logo.png')} alt="" />
+            <img className="logo1" src={require('./logo.png')} alt="" />
 
 
             <div className='icon'>
                 <ol>
-                    <li className="ff1"><a href="#">
+                    <li className="ff1"><a href="">
                         <img class="f1" src={require('./F_img/facebook.png')} alt="facebook" />
                     </a></li>
                     <li className="ff1"><a href="#">
@@ -41,7 +41,7 @@ function Footer() {
             </div>
             <div className='li2'>
 
-                <li className="txt2"><a href="">ДСП</a></li>
+                <li className="txt2"><a className=' duration-75' href="">ДСП</a></li>
                 <li className="txt2"><a href="">ДВП</a></li>
                 <li className="txt2"><a href="">Фанера</a></li>
                 <li className="txt2"><a href="">ОСП</a></li>

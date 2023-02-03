@@ -1,0 +1,154 @@
+#img1 {
+    height: 192px;
+    width: 1154px;
+    margin: 0 auto;
+}
+
+.img2 {
+    display: inline;
+}
+
+#bg {
+    height: 735px;
+    width: 100%;
+    border-radius: 0px;
+    background: #004AAD;
+}
+
+#gosp {
+    padding: 5% 4%;
+    font-size: 23px;
+}
+
+#osp2 {
+    font-style: normal;
+    font-size: 52px;
+    font-weight: 700;
+    color: aliceblue;
+    line-height: 150%;
+    padding-bottom: 1%;
+}
+
+
+.list-disc {
+    list-style-type: disc;
+    padding-left: 3%;
+}
+
+#osp3 {
+    color: aliceblue;
+    padding-bottom: 3%;
+    font-weight: 200;
+}
+
+#osp5 {
+    padding-bottom: 3%;
+    color: aliceblue;
+    font-weight: 200;
+}
+
+#osp4 {
+    color: aliceblue;
+    padding-bottom: 3%;
+    font-weight: 200;
+}
+
+#osp6 {
+    padding-left: 2%;
+    color: aliceblue;
+    list-style: circle;
+    font-weight: 200;
+}
+
+.osp9 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 150%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.gosp3 {
+    width: 100%;
+    background: #004AAD;
+    flex-direction: column;
+    display: flex;
+    padding: 5% 4%;
+}
+
+.osp10 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+
+.osp11 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.osp12 {
+    padding-bottom: 4%;
+    font-size: 23px;
+    font-weight: 200;
+}
+
+.osp13 {
+    padding-bottom: 116px;
+    font-size: 23px;
+    font-weight: 200;
+}
+
+.cts5 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 59px;
+}
+
+.osp14 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.btn {
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    background: #E31E24;
+    box-shadow: 6px 10px 30px 2px #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 109px;
+
+}
+
+.bttn2 {
+    width: 252.56px;
+    height: 80px;
+    left: 1193px;
+    top: 2996px;
+
+    background: #56B75A;
+    box-shadow: 6px 10px 30px 2px #000000;
+}
