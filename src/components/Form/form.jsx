@@ -5,9 +5,9 @@ const Form =()=>{
     
     return(
        <div className="container">
-           <h1 className='cont2'>Есть вопросы?</h1>
-           <h1 className='cont2 pb-[2%]'>Заполните форму и мы вам перезвоним!</h1>
-           <p className='pb-[2%]'>Поля, отмеченные звездочкой (*), обязательны для заполнения</p>
+           <h1>Есть вопросы?</h1>
+           <h1>Заполните форму и мы вам перезвоним!</h1>
+           <p>Поля, отмеченные звездочкой (*), обязательны для заполнения</p>
            <div className='form'>
               <div>
                 <label>Имя *</label><br />
@@ -30,11 +30,11 @@ const Form =()=>{
               </div>
 
            </div>
-           <h3 className='kuka flex  text-[15.5483px]'>Сообщение</h3>
-           <textarea className='flex pt-[10px] pl-[11px] justify-center' placeholder='Место для текста' cols='155' rows='8'></textarea><br />
-           <button className='kuka2'>Отправить</button>
+           <h3>Сообщение</h3>
+           <textarea cols='155' rows='8'></textarea><br />
+           <button>Отправить</button>
        </div>
     );
 }
- 
+
 export default Form;
