@@ -26,7 +26,6 @@ ol{
 a {
     text-decoration: none;
     color: rgb(208, 233, 255);
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -36,8 +35,6 @@ a {
 .cts {
     display: block;
     color: rgb(208, 233, 255);
-
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -86,7 +83,6 @@ a {
     
 }
 .a1 {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     line-height: 0%;

@@ -3,13 +3,19 @@ import Form from './components/Form/form';
 import './App.css';
 import Footer from './components/Footer/footer';
 import Osp from './components/Osp/osp';
+import Latoflex from './components/Lato-flex/latoflex';
+import Svyaz from './components/Svyaz/svyaz';
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Footer/>
-      
+      <Navbar />
+      <Osp />
+      <Latoflex />
+      <Svyaz />
+      <Form />
+      <Footer />
+
     </>
   );
 }

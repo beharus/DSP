@@ -2,7 +2,7 @@
     width: 1170px;
     /* height: 602px; */
     margin-top: 50px;
-    margin: 20px 5%;
+    margin: 20px 4%;
     padding: 45px;
     margin-bottom: 40px;
     background: #FFFFFF;
@@ -10,9 +10,20 @@
     border-radius: 32px;
 
 }
+.cont2 {
+font-style: normal;
+font-weight: 700;
+font-size: 35.5389px;
+line-height: 40px;
+/* identical to box height, or 113% */
+
+
+/* Base / Gray */
+
+color: #000000;
+}
 
 .form {
-    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -43,9 +54,9 @@ input {
 label {
     width: 508.65px;
     height: 22.21px;
-    margin-left: 20px;
+    margin-left: 9px;
 
-    
+
     font-weight: 700;
     font-size: 19px;
 
@@ -59,16 +70,46 @@ label {
 
 
 }
-button{
+
+button {
     margin: 50px 10px;
     padding: 10px;
-    background-color: red;
+    background-color: rgb(215, 0, 0);
     border: none;
     color: #FFFFFF;
 }
-textarea{
+
+textarea {
+    box-sizing: border-box;
+    width: 1073.62px;
+    height: 77.74px;
+    background: #FFFFFF;
+    border: 1.11059px solid #CCCCCC;
+}
+
+h3 {
     margin-left: 10px;
 }
-h3{
-    margin-left: 10px;
+
+.kuka {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    padding-bottom: 10px;
+    line-height: 22px;
+    /* identical to box height, or 143% */
+
+
+    /* Base / Gray */
+
+    color: #000000;
+}
+.kuka2 {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 9.99531px 16.6588px;
+gap: 11.11px;
+background: #E31E24;
+font-weight: 200;
 }
