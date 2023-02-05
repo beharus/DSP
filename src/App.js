@@ -13,6 +13,7 @@ function App() {
       <Osp />
       <Latoflex />
       <Svyaz />
+      <Form />
       <Footer />
 
     </>

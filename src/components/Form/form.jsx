@@ -9,29 +9,30 @@ const Form =()=>{
            <h1>Заполните форму и мы вам перезвоним!</h1>
            <p>Поля, отмеченные звездочкой (*), обязательны для заполнения</p>
            <div className='form'>
-              <div>
+
+              <div className='flex flex-wrap gap-7'>
                 <label>Имя *</label><br />
                 <input type="text" />
               </div>
 
-              <div>
+              <div className=''>
                 <label className='fy'>Фамилия</label><br />
                 <input type="text" />
               </div>
 
-              <div>
+              <div className=''>
                 <label>E-mail *</label><br />
                 <input id='gmail' type="text" />
               </div>
 
-              <div>
+              <div className=''>
                 <label className='fy'>Телефон *</label><br />
                 <input type="number" ></input>
               </div>
 
            </div>
            <h3>Сообщение</h3>
-           <textarea cols='155' rows='8'></textarea><br />
+           <textarea className='txt22' cols='155' rows='8'></textarea><br />
            <button>Отправить</button>
        </div>
     );
