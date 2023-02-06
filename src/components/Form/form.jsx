@@ -5,12 +5,12 @@ const Form =()=>{
     
     return(
        <div className="container">
-           <h1>Есть вопросы?</h1>
-           <h1>Заполните форму и мы вам перезвоним!</h1>
+           <h1 className='vop'>Есть вопросы?</h1>
+           <h1 className='vop pb-[4%]'>Заполните форму и мы вам перезвоним!</h1>
            <p>Поля, отмеченные звездочкой (*), обязательны для заполнения</p>
-           <div className='form'>
+           <div className='form flex flex-wrap gap-7'>
 
-              <div className='flex flex-wrap gap-7'>
+              <div className=''>
                 <label>Имя *</label><br />
                 <input type="text" />
               </div>

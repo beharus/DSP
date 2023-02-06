@@ -12,10 +12,9 @@ function App() {
       <Navbar />
       <Osp />
       <Latoflex />
-      <Svyaz />
+      <Svyaz/>
       <Form />
       <Footer />
-
     </>
   );
 }
