@@ -1,4 +1,6 @@
 import React from 'react';
+import Form from '../Form/form';
+import Svyaz from '../Svyaz/svyaz';
 import './osp.css'
 
 function Osp() {
@@ -71,7 +73,8 @@ function Osp() {
 
                 </div>
                 </div>
-
+            <Svyaz/>
+            <Form/>
             </div>
     );
 }

@@ -6,34 +6,34 @@ const Form =()=>{
     return(
        <div className="container">
            <h1 className='vop'>Есть вопросы?</h1>
-           <h1 className='vop pb-[4%]'>Заполните форму и мы вам перезвоним!</h1>
-           <p>Поля, отмеченные звездочкой (*), обязательны для заполнения</p>
-           <div className='form flex flex-wrap gap-7'>
+           <h1 className='vop pb-[2%]'>Заполните форму и мы вам перезвоним!</h1>
+           <p className='vop2 pb-[2%]'>Поля, отмеченные звездочкой (*), обязательны для заполнения</p>
+           <div className='form grid grid-cols-2 gap-5'>
 
-              <div className=''>
+              <div className=' col-span-2 lg:w-auto lg:col-span-1 '>
                 <label>Имя *</label><br />
-                <input type="text" />
+                <input className=' w-full' type="text" />
               </div>
 
-              <div className=''>
+              <div className='col-span-2 lg:w-auto lg:col-span-1 '>
                 <label className='fy'>Фамилия</label><br />
-                <input type="text" />
+                <input className=' w-full' type="text" />
               </div>
 
-              <div className=''>
+              <div className='col-span-2 lg:w-auto lg:col-span-1 '>
                 <label>E-mail *</label><br />
-                <input id='gmail' type="text" />
+                <input className=' w-full' id='gmail' type="text" />
               </div>
 
-              <div className=''>
+              <div className='col-span-2 lg:w-auto lg:col-span-1 '>
                 <label className='fy'>Телефон *</label><br />
-                <input type="number" ></input>
+                <input className=' w-full' type="number" ></input>
               </div>
 
            </div>
-           <h3>Сообщение</h3>
-           <textarea className='txt22' cols='155' rows='8'></textarea><br />
-           <button>Отправить</button>
+           <h3 className=' text-[15px]'>Сообщение</h3>
+           <textarea placeholder='Место для текста' className='txt22 px-5 py-2' cols='155' rows='8'></textarea><br />
+           <button className=' w-[160px] h-[50px] rounded-md text-center form-bttn hover:text-2xl duration-300'>Отправить</button>
        </div>
     );
 }

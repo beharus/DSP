@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './footer.css';
 
 
@@ -44,25 +45,26 @@ function Footer() {
                 <li className="txt2"><a className=' duration-75' href="">ДСП</a></li>
                 <li className="txt2"><a href="">ДВП</a></li>
                 <li className="txt2"><a href="">Фанера</a></li>
-                <li className="txt2"><a href="">ОСП</a></li>
-                <li className="txt2"><a href="">Латофлекс</a></li>
+                <li className="txt2"><Link to="/osp">ОСП</Link></li>
+                <li className="txt2"><Link to="/latoflex">Латофлекс</Link></li>
 
             </div>
 
             <div className='cts'>
                 <p className="p contact">Контакты:</p>
                 <p className="p">ТК «Партнер»</p>
-                
+
                 <p className="p contact"><img className="f4" src={require('./F_img/Vector.png')} alt="" />+7 (4922) 771-017 </p>
                 <p className="p">«Фанторг»</p>
-                
+
                 <p className="p"><img className="f4" src={require('./F_img/Vector.png')} alt="" />+7 (4922) 771-016 </p>
-                
+
                 <p className="p contact"><img className="f4" src={require('./F_img/Vector.png')} alt="" /> +7 (910) 770-14-63</p>
-                
-                <p className="p"><img className="f4" src={require("./F_img/email.png")}/>ooo_tkpartner@mail.ru</p>
+
+                <p className="p"><img className="f4" src={require("./F_img/email.png")} />ooo_tkpartner@mail.ru</p>
             </div>
 
+            
         </div>
     )
 };

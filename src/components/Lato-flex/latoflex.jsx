@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from '../Form/form';
 
 function Latoflex() {
     return (
@@ -63,8 +64,9 @@ function Latoflex() {
 
 
                     </div>
+                  
                 </div>
-
+  <Form/>
             </div>
 
         </div>
