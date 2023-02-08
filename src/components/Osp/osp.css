@@ -16,6 +16,12 @@
 }
 
 #gosp {
+    padding: 1% 4%;
+    font-size: 23px;
+
+}
+
+#gosplow{
     padding: 5% 4%;
     font-size: 23px;
 }
@@ -41,6 +47,13 @@
     font-style: normal;
     color: aliceblue;
     padding-bottom: 3%;
+    font-weight: 200;
+}
+#osp3AAA {
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: aliceblue;
+    
     font-weight: 200;
 }
 

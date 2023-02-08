@@ -73,8 +73,11 @@ function Osp() {
 
                 </div>
                 </div>
+           
+            <div className='py-16'>
             <Svyaz/>
             <Form/>
+            </div>
             </div>
     );
 }
