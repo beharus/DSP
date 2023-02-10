@@ -7,10 +7,10 @@ function Latoflex() {
       <img id="img1" src={require("./lato_img/lato1.png")} alt="img1" />
 
       <div id="bg">
-        <div id="gosp">
-          <p id="osp2">Латофлекс</p>
+        <div id="gosp" className=" max-w-[1560px] mx-auto">
+          <p className="text-4xl font-bold md:text-5xl text-white my-14">Латофлекс</p>
 
-          <p id="osp3">
+          <p  className="text-lg md:text-2xl pb-[3%] text-white" id="osp3">
             Под термином латофлекс скрываются всем знакомые латы или ламели, на
             которых держится матрас в основании. Эти изогнутые мебельные
             амортизаторы изготавливаются по технологии схожей с фанерной.
@@ -19,7 +19,7 @@ function Latoflex() {
           </p>
           <p id="osp5">Виды латофлекса</p>
 
-          <p id="osp4">
+          <p className="text-lg md:text-2xl pb-[3%] text-white" id="osp4">
             Латофлекс, так же как и фанера, подразделяется по сортам: 1, 2, 3 и
             4. Латофлекс может быть ламинированным и не ламинированным,
             отличаться влагостойкостью и классом эмиссии формальдегида.{" "}
@@ -28,7 +28,7 @@ function Latoflex() {
       </div>
 
       <div className="gosp2">
-        <p className="osp9">ВИДЫ ЛАТОФЛЕКСА:</p>
+        <p className="text-4xl font-bold md:text-5xl text-center my-16">ВИДЫ ЛАТОФЛЕКСА:</p>
         <div className=" flex flex-wrap gap-7 justify-center">
           <div className="">
             <img src={require("./lato_img/flx1.png")} alt="1" />
@@ -52,17 +52,17 @@ function Latoflex() {
         </div>
 
         <div className="gosp3">
-          <p className="osp11 text-white pb-[3%]">
+          <p className="text-4xl font-bold md:text-5xl text-white pb-[3%]">
             Варианты применения латофлекса:
           </p>
 
-          <p className="osp12 text-white pb-[3%]">
+          <p className="text-lg md:text-2xl pb-[3%] text-white">
             Латофлексы применяются только в одной отрасли - мебельной. Латы
             вставляются в основание кроватей и держат на себе матрас, что
             позволяет равномерно распределить нагрузку.
           </p>
 
-          <p className="osp13 pb-[3%] text-white">
+          <p className="text-lg md:text-2xl pb-[3%] text-white">
             Но благодаря огромному количеству видов и размеров кроватей,
             латофлексов для мебельной промышленности требуется много разного
             вида и разного качества.{" "}
@@ -80,7 +80,9 @@ function Latoflex() {
             </button>
           </div>
         </div>
+        <div className="py-20">
         <Form />
+        </div>
       </div>
     </div>
   );

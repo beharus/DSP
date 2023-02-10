@@ -58,7 +58,7 @@ function Footer() {
         </div>
         <div className="li2 my-5 lg:my-0 col-span-1">
           <li className="txt2">
-            <a className=" duration-75" href="">
+            <a className=" duration-75" href="Dsp">
               ДСП
             </a>
           </li>
@@ -66,13 +66,13 @@ function Footer() {
             <a href="/dvp">ДВП</a>
           </li>
           <li className="txt2">
-            <a href="">Фанера</a>
+            <a href="Fanera">Фанера</a>
           </li>
           <li className="txt2">
-            <Link to="/osp">ОСП</Link>
+            <a href="/osp">ОСП</a>
           </li>
           <li className="txt2">
-            <Link to="/latoflex">Латофлекс</Link>
+            <a href="/latoflex">Латофлекс</a>
           </li>
         </div>
         <div className="cts my-5 lg:my-0 lg:col-span-1 col-span-2">
