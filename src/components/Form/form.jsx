@@ -31,7 +31,7 @@ const Form =()=>{
               </div>
 
            </div>
-           <h3 className=' text-[15px]'>Сообщение</h3>
+           <h3 className='text-[15px]'>Сообщение</h3>
            <textarea placeholder='Место для текста' className='txt22 px-5 py-2' cols='155' rows='8'></textarea><br />
            <button className=' w-[160px] h-[50px] rounded-md text-center form-bttn hover:text-2xl duration-300'>Отправить</button>
        </div>
