@@ -42,7 +42,7 @@ function Footer() {
             </div>
             <div className='li2'>
 
-                <li className="txt2"><a href="">ДСП</a></li>
+                <li className="txt2"><a href="/ДСП">ДСП</a></li>
                 <li className="txt2"><a href="/ДВП">ДВП</a></li>
                 <li className="txt2"><a href="/Фанера">Фанера</a></li>
                 <li className="txt2"><Link to="/ОСП">ОСП</Link></li>

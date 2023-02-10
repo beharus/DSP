@@ -35,16 +35,16 @@ const Dvp = () => {
             
         </div>
 
-        <div  className="gosp3AAA md:px-16  px-0  bg-[#004AAD] ">
-            <p className=' justify-center items-center text-[60px] md:mx-[600px]  mx-0 text-white'>Варианты применения ДВП:</p>
-                 <div className='max-w-[1200px]  md:mx-[400px]  px-0  my-6'>
-            <p className='osp12 text-white'>Благодаря невысокой цене и отличным эксплуатационным характеристикам ДВП нашел применение в огромном количестве областей.</p>
+        <div  className=" lg:px-16  px-2  bg-[#004AAD] ">
+            <p className=' justify-center items-center text-[60px] md:mx-[400px]  mx-0 text-white'>Варианты применения ДВП:</p>
+                 <div className='  lg:mx-[400px]  px-0  my-6'>
+            <p className=' text-white'>Благодаря невысокой цене и отличным эксплуатационным характеристикам ДВП нашел применение в огромном количестве областей.</p>
 
-            <p className='osp13 text-white md:mx-16  mx-0'>
-            <li className='osp6 font-extralight text-white'>Строительство - ДВП используется при монтаже опалубки, для термо- и звукоизоляции, при возведении внутренних перегородок, монтаже полов и подиумов. </li>
-                        <li className='osp6 font-extralight text-white'> Производство дверей - используется дверных полотнах.</li>
-                        <li className='osp6 font-extralight text-white'>Производство мебели - в мягкой и корпусной мебели.</li>
-                        <li className='osp6 font-extralight text-white'>В советской электротехнике из ДВП делали стенки телевизоров и радиоприемников. </li>
+            <p className=' text-white lg:sm-0  mx-0'>
+            <li className=' font-extralight text-white'>Строительство - ДВП используется при монтаже опалубки, для термо- и звукоизоляции, при возведении внутренних перегородок, монтаже полов и подиумов. </li>
+                        <li className=' font-extralight text-white w-[300px]'> Производство дверей - используется дверных полотнах.</li>
+                        <li className=' font-extralight text-white'>Производство мебели - в мягкой и корпусной мебели.</li>
+                        <li className=' font-extralight text-white'>В советской электротехнике из ДВП делали стенки телевизоров и радиоприемников. </li>
             </p></div>
             <div className="btn1 flex">
                 <button className='btn flex flex-wrap gap-3 justify-center items-center hover:text-2xl duration-300'> Заказать КП </button>

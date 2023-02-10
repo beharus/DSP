@@ -9,6 +9,7 @@ import { Route, Routes } from "react-router-dom";
 import Fanera from "./components/Fanera/fanera";
 import Dvp from "./components/DVP/dvp";
 import Logistika from "./components/Logistika/log";
+import Dsp from "./components/DSP/dsp";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Фанера" element={<Fanera />} />
         <Route path="/Логистика" element={<Logistika />} />
         <Route path="/ДВП" element={<Dvp />} />
+        <Route path="/ДСП" element={<Dsp />} />
       </Routes>
 
       <Footer />
