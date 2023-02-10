@@ -10,9 +10,9 @@ const Dvp = () => {
 
     <div id='bg'>
 
-        <div id='gosplow'>
-        <span className='text-white flex justify-center items-center text-[40px] my-6'> ДВП - Древесноволокнистая плита</span>
-            <p  className='text-white mx-[700px]'> 
+        <div className='py-[100px]'>
+        <span className='text-white flex justify-center items-center md:text-[40px] text-[20px] my-6'> ДВП - Древесноволокнистая плита</span>
+            <p  className='text-white  max-w-[600px] sm:mx-[200px] lg:mx-[600px]   md:mx-[200px]  mx-16'> 
 Древесноволокнистая плита - недорогой материал с высокими эксплуатационными качествами. Изготавливается методом прессования под высокой температурой из отходов деревообрабатывающего производства. Прессование может быть “мокрым” или “сухим”. Последнее - более экологичный, но и более затратный способ.</p>
            
         </div>
