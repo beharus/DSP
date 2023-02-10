@@ -7,6 +7,7 @@ import Latoflex from './components/Lato-flex/latoflex';
 import Svyaz from './components/Svyaz/svyaz';
 import { Route, Routes } from 'react-router-dom';
 import Fanera from './components/Fanera/fanera';
+import Dvp from './components/DVP/dvp';
 
 function App() {
   return (
@@ -17,7 +18,10 @@ function App() {
         <Route path = '/osp' element={<Osp/>}/>
         <Route path = '/latoflex' element={<Latoflex/>}/>
         <Route path = '/fanera' element={<Fanera/>}/>
+        <Route path = '/dvp' element={<Dvp />}/>
+
       </Routes>
+         
         <Footer />
     </>
   );

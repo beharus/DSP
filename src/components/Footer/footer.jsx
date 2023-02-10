@@ -42,11 +42,11 @@ function Footer() {
             </div>
             <div className='li2'>
 
-                <li className="txt2"><a className='' href="">ДСП</a></li>
+                <li className="txt2"><a className=' duration-75' href="">ДСП</a></li>
                 <li className="txt2"><a href="">ДВП</a></li>
-                <li className="txt2"><a href="/fanera">Фанера</a></li>
-                <li className="txt2"><a href="/osp">ОСП</a></li>
-                <li className="txt2"><a href="/latoflex">Латофлекс</a></li>
+                <li className="txt2"><a href="">Фанера</a></li>
+                <li className="txt2"><Link to="/osp">ОСП</Link></li>
+                <li className="txt2"><Link to="/latoflex">Латофлекс</Link></li>
 
             </div>
 
