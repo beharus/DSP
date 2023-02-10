@@ -33,7 +33,7 @@ function Footer() {
                         <li><a href="">Главная</a></li>
                         <li><a href="">ТК Партнер</a></li>
                         <li><a href="">Каталог</a></li>
-                        <li><a href="">Логистика</a></li>
+                        <li><a href="/Логистика">Логистика</a></li>
                         <li><a href="">О компании</a></li>
                         <li><a href="">Контакты</a></li>
                         <li><a href="">Поставщик</a></li>
@@ -42,11 +42,11 @@ function Footer() {
             </div>
             <div className='li2'>
 
-                <li className="txt2"><a className=' duration-75' href="">ДСП</a></li>
-                <li className="txt2"><a href="">ДВП</a></li>
-                <li className="txt2"><a href="">Фанера</a></li>
-                <li className="txt2"><Link to="/osp">ОСП</Link></li>
-                <li className="txt2"><Link to="/latoflex">Латофлекс</Link></li>
+                <li className="txt2"><a href="">ДСП</a></li>
+                <li className="txt2"><a href="/ДВП">ДВП</a></li>
+                <li className="txt2"><a href="/Фанера">Фанера</a></li>
+                <li className="txt2"><Link to="/ОСП">ОСП</Link></li>
+                <li className="txt2"><Link to="/Латофлекс">Латофлекс</Link></li>
 
             </div>
 
