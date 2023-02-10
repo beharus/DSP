@@ -100,7 +100,9 @@ function Osp() {
         </div>
       </div>
       <Svyaz />
-      <Form />
+      <div className=" py-20"> 
+        <Form />
+      </div>
     </div>
   );
 }

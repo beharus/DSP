@@ -1,72 +1,112 @@
-import { Link } from 'react-router-dom';
-import './footer.css';
-
-
+import { Link } from "react-router-dom";
+import "./footer.css";
 
 function Footer() {
-
-    return (
-
-        <div className='footer'>
-
-
-            <img className="logo1" src={require('./logo.png')} alt="" />
-
-
-            <div className='icon'>
-                <ol>
-                    <li className="ff1"><a href="">
-                        <img class="f1" src={require('./F_img/facebook.png')} alt="facebook" />
-                    </a></li>
-                    <li className="ff1"><a href="#">
-                        <img src={require('./F_img/wk.png')} alt="wk" />
-                    </a></li>
-                    <li className="ff1"><a href="#">
-                        <img src={require('./F_img/instagram.png')} alt="inst" />
-                    </a></li>
-                </ol>
-            </div>
-
-            <div className='txt'>
-                <div className='li'>
-                    <ol>
-                        <li><a href="">Главная</a></li>
-                        <li><a href="">ТК Партнер</a></li>
-                        <li><a href="">Каталог</a></li>
-                        <li><a href="/Логистика">Логистика</a></li>
-                        <li><a href="">О компании</a></li>
-                        <li><a href="">Контакты</a></li>
-                        <li><a href="">Поставщик</a></li>
-                    </ol>
-                </div>
-            </div>
-            <div className='li2'>
-
-                <li className="txt2"><a href="/ДСП">ДСП</a></li>
-                <li className="txt2"><a href="/ДВП">ДВП</a></li>
-                <li className="txt2"><a href="/Фанера">Фанера</a></li>
-                <li className="txt2"><Link to="/ОСП">ОСП</Link></li>
-                <li className="txt2"><Link to="/Латофлекс">Латофлекс</Link></li>
-
-            </div>
-
-            <div className='cts'>
-                <p className="p contact">Контакты:</p>
-                <p className="p">ТК «Партнер»</p>
-
-                <p className="p contact"><img className="f4" src={require('./F_img/Vector.png')} alt="" />+7 (4922) 771-017 </p>
-                <p className="p">«Фанторг»</p>
-
-                <p className="p"><img className="f4" src={require('./F_img/Vector.png')} alt="" />+7 (4922) 771-016 </p>
-
-                <p className="p contact"><img className="f4" src={require('./F_img/Vector.png')} alt="" /> +7 (910) 770-14-63</p>
-
-                <p className="p"><img className="f4" src={require("./F_img/email.png")} />ooo_tkpartner@mail.ru</p>
-            </div>
-
-            
+  return (
+    <div className="footer">
+      <div className=" max-w-[1560px] mx-auto gap-x-7 lg:gap-0 grid grid-cols-2 lg:grid-cols-5">
+        <img className="logo1 col-span-2 lg:col-span-1 mx-auto" src={require("./logo.png")} alt="" />
+        <div className=" my-5 lg:my-0 icon col-span-2 lg:col-span-1 mx-auto">
+          <ol className=" flex justify-center gap-5 lg:block lg:my-0 my-5">
+            <li className="ff1">
+              <a href="">
+                <img
+                  class="f1"
+                  src={require("./F_img/facebook.png")}
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li className="ff1">
+              <a href="#">
+                <img src={require("./F_img/wk.png")} alt="wk" />
+              </a>
+            </li>
+            <li className="ff1">
+              <a href="#">
+                <img src={require("./F_img/instagram.png")} alt="inst" />
+              </a>
+            </li>
+          </ol>
         </div>
-    )
-};
+        <div className=" my-5 lg:my-0 txt col-span-1">
+          <div className="li">
+            <ol>
+              <li>
+                <a href="">Главная</a>
+              </li>
+              <li>
+                <a href="">ТК Партнер</a>
+              </li>
+              <li>
+                <a href="">Каталог</a>
+              </li>
+              <li>
+                <a href="">Логистика</a>
+              </li>
+              <li>
+                <a href="">О компании</a>
+              </li>
+              <li>
+                <a href="">Контакты</a>
+              </li>
+              <li>
+                <a href="">Поставщик</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div className="li2 my-5 lg:my-0 col-span-1">
+          <li className="txt2">
+            <a className=" duration-75" href="">
+              ДСП
+            </a>
+          </li>
+          <li className="txt2">
+            <a href="/dvp">ДВП</a>
+          </li>
+          <li className="txt2">
+            <a href="">Фанера</a>
+          </li>
+          <li className="txt2">
+            <Link to="/osp">ОСП</Link>
+          </li>
+          <li className="txt2">
+            <Link to="/latoflex">Латофлекс</Link>
+          </li>
+        </div>
+        <div className="cts my-5 lg:my-0 lg:col-span-1 col-span-2">
+          <p className=" mb-2 text-left lg:text-right">Контакты:</p>
+          <p className=" mb-2 text-left lg:text-right">ТК «Партнер»</p>
+          <div className=" flex lg:justify-end  gap-5 mb-2">
+            <div className="">
+              <img className="f4" src={require("./F_img/Vector.png")} alt="" />
+            </div>
+            <p className="">+7 (4922) 771-017 </p>
+          </div>
+          <p className="  mb-2  text-left lg:text-right">«Фанторг»</p>
+          <div className=" flex  lg:justify-end gap-5 mb-2">
+            <div className="">
+              <img className="f4" src={require("./F_img/Vector.png")} alt="" />
+            </div>
+            <p className="">+7 (4922) 771-016 </p>
+          </div>
+          <div className=" flex  lg:justify-end gap-5 mb-2">
+            <div className="">
+              <img className="f4" src={require("./F_img/Vector.png")} alt="" />
+            </div>
+            <p className=""> +7 (910) 770-14-63</p>
+          </div>
+          <div className=" flex  lg:justify-end gap-5 mb-2">
+            <div className="">
+              <img className="f4" src={require("./F_img/email.png")} />
+            </div>
+            <p className="">ooo_tkpartner@mail.ru</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default Footer;

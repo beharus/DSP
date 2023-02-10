@@ -17,12 +17,12 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/ОСП" element={<Osp />} />
-        <Route path="/Латофлекс" element={<Latoflex />} />
-        <Route path="/Фанера" element={<Fanera />} />
-        <Route path="/Логистика" element={<Logistika />} />
-        <Route path="/ДВП" element={<Dvp />} />
-        <Route path="/ДСП" element={<Dsp />} />
+        <Route path="/Osp" element={<Osp />} />
+        <Route path="/Latoflex" element={<Latoflex />} />
+        <Route path="/Fanera" element={<Fanera />} />
+        <Route path="/Logistika" element={<Logistika />} />
+        <Route path="/Dvp" element={<Dvp />} />
+        <Route path="/Dsp" element={<Dsp />} />
       </Routes>
 
       <Footer />
