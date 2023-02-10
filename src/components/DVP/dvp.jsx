@@ -36,8 +36,8 @@ const Dvp = () => {
         </div>
 
         <div  className=" lg:px-16  px-2  bg-[#004AAD] ">
-            <p className=' justify-center items-center text-[60px] md:mx-[400px]  mx-0 text-white'>Варианты применения ДВП:</p>
-                 <div className='  lg:mx-[400px]  px-0  my-6'>
+            <p className='  text-[60px]  text-white'>Варианты применения ДВП:</p>
+        <div className='  px-0  my-6'>
             <p className=' text-white'>Благодаря невысокой цене и отличным эксплуатационным характеристикам ДВП нашел применение в огромном количестве областей.</p>
 
             <p className=' text-white lg:sm-0  mx-0'>
