@@ -5,12 +5,13 @@ function Latoflex() {
   return (
     <div>
       <img id="img1" src={require("./lato_img/lato1.png")} alt="img1" />
-
       <div id="bg">
         <div id="gosp" className=" max-w-[1560px] mx-auto">
-          <p className="text-4xl font-bold md:text-5xl text-white my-14">Латофлекс</p>
+          <p className="text-4xl font-bold md:text-5xl text-white my-14">
+            Латофлекс
+          </p>
 
-          <p  className="text-lg md:text-2xl pb-[3%] text-white" id="osp3">
+          <p className="text-lg md:text-2xl pb-[3%] text-white" id="osp3">
             Под термином латофлекс скрываются всем знакомые латы или ламели, на
             которых держится матрас в основании. Эти изогнутые мебельные
             амортизаторы изготавливаются по технологии схожей с фанерной.
@@ -26,9 +27,10 @@ function Latoflex() {
           </p>
         </div>
       </div>
-
-      <div className="gosp2">
-        <p className="text-4xl font-bold md:text-5xl text-center my-16">ВИДЫ ЛАТОФЛЕКСА:</p>
+      <div className=" max-w-[1560px] mx-auto">
+        <p className="text-4xl font-bold md:text-5xl text-center my-16">
+          ВИДЫ ЛАТОФЛЕКСА:
+        </p>
         <div className=" flex flex-wrap gap-7 justify-center">
           <div className="">
             <img src={require("./lato_img/flx1.png")} alt="1" />
@@ -50,24 +52,22 @@ function Latoflex() {
             <p className="osp10 pb-24 pt-7  text-center">Латофлекс сорт-4</p>
           </div>
         </div>
-
-        <div className="gosp3">
+      </div>{" "}
+      <div className="gosp3">
+        <div className=" px-[4%] max-w-[1560px] mx-auto">
           <p className="text-4xl font-bold md:text-5xl text-white pb-[3%]">
             Варианты применения латофлекса:
           </p>
-
           <p className="text-lg md:text-2xl pb-[3%] text-white">
             Латофлексы применяются только в одной отрасли - мебельной. Латы
             вставляются в основание кроватей и держат на себе матрас, что
             позволяет равномерно распределить нагрузку.
           </p>
-
           <p className="text-lg md:text-2xl pb-[3%] text-white">
             Но благодаря огромному количеству видов и размеров кроватей,
             латофлексов для мебельной промышленности требуется много разного
             вида и разного качества.{" "}
           </p>
-
           <div className="btn1 flex">
             <button className="btn flex flex-wrap gap-3 justify-center items-center hover:text-2xl duration-300">
               {" "}
@@ -80,10 +80,10 @@ function Latoflex() {
             </button>
           </div>
         </div>
-        <div className="py-20">
-        <Form />
-        </div>
       </div>
+        <div className="py-20">
+          <Form />
+        </div>
     </div>
   );
 }
