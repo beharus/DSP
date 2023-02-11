@@ -10,6 +10,7 @@ import Fanera from "./components/Fanera/fanera";
 import Dvp from "./components/DVP/dvp";
 import Logistika from "./components/Logistika/log";
 import Dsp from "./components/DSP/dsp";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
 
       <Routes>
         <Route path="/Osp" element={<Osp />} />
+        <Route path="/Main" element={<Main/>} />
+        <Route path="/" element={<Main/>} />
         <Route path="/Latoflex" element={<Latoflex />} />
         <Route path="/Fanera" element={<Fanera />} />
         <Route path="/Logistika" element={<Logistika />} />
