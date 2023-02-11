@@ -105,7 +105,12 @@ function Osp() {
           </div>
         </div>
       </div>
-      <Svyaz />
+      <div className="max-w-[1560px] mx-auto">
+        <p className="text-4xl md:text-5xl font-bold lg:leading-[78px] pb-2 mt-16 text-center">
+          Как связаться с отделом продаж
+        </p>
+        <Svyaz  />
+      </div>
       <div className=" py-20">
         <Form />
       </div>

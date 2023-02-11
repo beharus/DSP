@@ -8,10 +8,12 @@ function Fanera() {
       <img id="img1" src={require("./img_fanera/fanera.png")} alt="img1" />
 
       <div id="bg">
-        <div id="gosp">
-          <p id="osp2">ФАНЕРА</p>
+        <div id="gosp" className=" max-w-[1560px] mx-auto">
+          <p className="text-4xl font-bold md:text-5xl text-white my-14">
+            ФАНЕРА
+          </p>
 
-          <p id="osp3">
+          <p className="text-lg md:text-2xl pb-[3%] text-white" id="osp3">
             Фанера - это строительный материал, получаемый путем склеивания
             слоев шпона. Для прочности волокна каждого слоя располагаются
             перпендикулярно следующему. Шпон для фанеры получается путем лущения
@@ -19,17 +21,17 @@ function Fanera() {
             используют и сырье хвойных пород.{" "}
           </p>
 
-          <p id="osp5">
+          <p className="text-lg md:text-2xl pb-[3%] text-white" id="osp5">
             Самая распространенная характеристика фанеры - это ее сорт.
             Различают Е-сорт, 1, 2, 3 и 4. Чем выше сорт, тем меньше в фанере
             сучков, разнотонов и вкраплений.
           </p>
 
-          <p id="osp4">
+          <p className="text-lg md:text-2xl pb-[3%] text-white" id="osp4">
             В зависимости от метода обработки фанерного листа выделяют:
           </p>
 
-          <ul className=" list-disc pb-[3%]">
+          <ul className=" list-disc text-lg md:text-2xl pb-[3%] text-white">
             <li className="osp6 font-extralight text-white">
               ФСФ - прочная и влагостойкая фанера со смолами фенолформальдегида
             </li>
@@ -45,13 +47,17 @@ function Fanera() {
             </li>
           </ul>
 
-          <p id="osp4">Также фанера подразделяется по методу применения.</p>
+          <p className="text-lg md:text-2xl pb-[3%] text-white" id="osp4">
+            Также фанера подразделяется по методу применения.
+          </p>
         </div>
       </div>
 
-      <div className="gosp2">
-        <p className="osp9">ВИДЫ фанеры:</p>
-        <div className=" flex flex-wrap gap-7 justify-center">
+      <div className="max-w-[1560px] mx-auto ">
+        <p className="text-4xl font-bold md:text-5xl text-center my-16 uppercase">
+          ВИДЫ фанеры:
+        </p>
+        <div className=" text-lg md:text-2xl pb-[3%] text-white flex flex-wrap gap-7 justify-center">
           <div className="">
             <img src={require("./img_fanera/fsf1.png")} alt="1" />
             <p className="osp10 pb-2 pt-7  text-center ">ФСФ</p>
@@ -74,18 +80,19 @@ function Fanera() {
             </p>
           </div>
         </div>
-
-        <div className="gosp3 pb-[86px]">
-          <p className="osp11 pb-[3%] text-white">Варианты применения фанеры:</p>
-
-          <p className="osp12 pb-[3%] text-white">
+      </div>
+      <div className="gosp3 pb-[86px] ">
+        <div className="max-w-[1560px] mx-auto">
+          <p className="text-4xl font-bold md:text-5xl text-white pb-[3%]">
+            Варианты применения фанеры:
+          </p>
+          <p className="text-lg md:text-2xl pb-[3%] text-white">
             Фанера находит самое широкое применение во многих отраслях
             промышленности. Фанера в строительстве используется для обустройства
             полов, стен, внутридомовых конструкций. Из фанеры создают опалубку,
             строительные леса.
           </p>
-
-          <p className="osp13 pb-[3%] text-white">
+          <p className="text-lg md:text-2xl pb-[3%] text-white">
             Фанера - один из основных материалов в мебельной промышленности.
             Сложно найти сферу, где бы не применялся такой универсальный
             материал, как фанера. Из фанеры даже строят маломерные суда и
@@ -103,11 +110,18 @@ function Fanera() {
           </div>
         </div>
       </div>
-      <Svyaz />
-      <Svyaz />
-      <Svyaz />
+      <div className="max-w-[1560px] mx-auto">
+        <p className="text-4xl md:text-5xl font-bold lg:leading-[78px] pb-2 mt-16 text-center">
+          Как связаться с отделом продаж
+        </p>
+        <Svyaz />
+        <Svyaz />
+        <Svyaz />
+      </div>
 
-      <Form />
+      <div className="py-20">
+        <Form />
+      </div>
     </div>
   );
 }
