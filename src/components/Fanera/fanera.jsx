@@ -82,7 +82,7 @@ function Fanera() {
         </div>
       </div>
       <div className="gosp3 pb-[86px] ">
-        <div className="max-w-[1560px] mx-auto">
+        <div className="max-w-[1560px] px-[4%] mx-auto">
           <p className="text-4xl font-bold md:text-5xl text-white pb-[3%]">
             Варианты применения фанеры:
           </p>
@@ -114,9 +114,9 @@ function Fanera() {
         <p className="text-4xl md:text-5xl font-bold lg:leading-[78px] pb-2 mt-16 text-center">
           Как связаться с отделом продаж
         </p>
-        <Svyaz />
-        <Svyaz />
-        <Svyaz />
+        <Svyaz name = 'Краснов ' lastname = 'Алексей' numb = '+7 (960) 724 19 28'/>
+        <Svyaz name = 'Кузнецова ' lastname = 'Ангелина' numb = ' +7 (906) 561 34 62' />
+        <Svyaz name = 'Кондратьев ' lastname = 'Андрей' numb = ' +7 (905) 613 75 33' />
       </div>
 
       <div className="py-20">
