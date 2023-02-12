@@ -15,11 +15,12 @@ function Main() {
   return (
     <div>
       <div className="">
+        {/* MAIN */}
         <div className="Main">
           <div className=" relative">
             <div className=" w-full h-[70vh] top-[0] left-0">
               <Slider {...settings}>
-                <div className="w-full main-content bg-black">
+                <div className="w-full px-[4%] main-content bg-black">
                   <div className=" h-[70vh] flex justify-center items-center ">
                     <div className="">
                       <p className="font-bold px-9 py-8 bg-[#004AADCC] lg:text-[52px] text-3xl sm:text-4xl text-white">
@@ -30,7 +31,7 @@ function Main() {
                         материалов
                       </p>
                       <button className="main-btn text-white w-[250px] h-[80px] rounded-sm uppercase font-bold hover:text-2xl duration-300 md:text-xl">
-                        позвонить >
+                        позвонить &gt;
                       </button>
                     </div>
                   </div>
@@ -69,27 +70,150 @@ function Main() {
               </Slider>
             </div>
           </div>
+          {/* PARTNERS */}
+          <div className="relative partners">
+            <div className=" h-full bg-[#004AADCC]">
+              <div className="max-w-[1560px] mx-auto px-[4%]">
+                <p className="font-bold text-white text-center py-[45px] lg:text-[52px] text-3xl sm:text-4xl uppercase">
+                  партнер - это
+                </p>
+                <div className=" py-[45px] flex justify-around flex-wrap text-white font-bold text-xl leading-[30px]">
+                  <div className=" text-center py-5">
+                    <img
+                      className=" mx-auto"
+                      src={require("./Main_img/partner1.png")}
+                      alt=""
+                    />
+                    <p>
+                      надежный
+                      <br /> поставщик
+                    </p>
+                  </div>
+                  <div className=" text-center py-5">
+                    <img
+                      className=" mx-auto"
+                      src={require("./Main_img/partner2.png")}
+                      alt=""
+                    />
+                    <p>Низкие цены</p>
+                  </div>
+                  <div className=" text-center py-5">
+                    <img
+                      className=" mx-auto"
+                      src={require("./Main_img/partner2.png")}
+                      alt=""
+                    />
+                    <p>Большой склад </p>
+                  </div>
+                  <div className=" text-center py-5">
+                    <img
+                      className=" mx-auto"
+                      src={require("./Main_img/partner4.png")}
+                      alt=""
+                    />
+                    <p>Своя логистика</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Catalog */}
           <div className="">
             <div className="">
-              <p className="font-bold text-center py-[45px] lg:text-[52px] text-3xl sm:text-4xl text-black uppercase">партнер - это</p>
-              {/* <div className="">
-                <div className=" h-20">
-                  <img src={require('./Main_img/partner1.svg')} alt="" />
-                  <p></p>
+              <div className="max-w-[1560px] mx-auto px-[4%]">
+                <p className="font-bold text-black text-center py-[65px] lg:text-[52px] text-3xl sm:text-4xl uppercase">
+                  каталог продукции
+                </p>
+                <div className="grid gap-7 justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+                  <div className=" col-span-1 lg:col-span-1">
+                    <img
+                      className="w-full h-[320px] object-cover"
+                      src={require("./Main_img/product-cat.png")}
+                      alt=""
+                    />
+                    <a href="" className="font-bold text-black ">
+                      <p className="leading-[30px] md:text-xl text-base sm:text-lg py-7 mb-[5px]">
+                        ДВП
+                      </p>
+                    </a>
+                  </div>
+                  <div className=" col-span-1 lg:col-span-1">
+                    <img
+                      className="w-full h-[320px] object-cover"
+                      src={require("./Main_img/product-cat2.png")}
+                      alt=""
+                    />
+                    <a href="" className="font-bold text-black ">
+                      <p className="leading-[30px] md:text-xl text-base sm:text-lg py-7 mb-[5px]">
+                        ДСП
+                      </p>
+                    </a>
+                  </div>
+                  <div className=" col-span-1 sm:col-span-2">
+                    <img
+                      className="w-full h-[320px] object-cover"
+                      src={require("./Main_img/product-cat3.png")}
+                      alt=""
+                    />
+                    <a href="" className="font-bold text-black ">
+                      <p className="leading-[30px] md:text-xl text-base sm:text-lg py-7 mb-[5px]">
+                        OSB
+                      </p>
+                    </a>
+                  </div>
+                  <div className=" col-span-1 lg:col-span-3">
+                    <img
+                      className="w-full h-[320px] object-cover"
+                      src={require("./Main_img/product-cat4.png")}
+                      alt=""
+                    />
+                    <a href="" className="font-bold text-black ">
+                      <p className="leading-[30px] md:text-xl text-base sm:text-lg py-7 mb-[5px]">
+                        ФАНЕРА
+                      </p>
+                    </a>
+                  </div>
+                  <div className=" col-span-1 lg:col-span-1">
+                    <img
+                      className="w-full h-[320px] object-cover"
+                      src={require("./Main_img/product-cat5.png")}
+                      alt=""
+                    />
+                    <a href="" className="font-bold text-black ">
+                      <p className="leading-[30px] md:text-xl text-base sm:text-lg py-7 mb-[5px]">
+                        ЛАТОФЛЕКС
+                      </p>
+                    </a>
+                  </div>
                 </div>
-                <div className="">
-                  <img src={require('./Main_img/partner2.svg')} alt="" />
-                  <p></p>
-                </div>
-                <div className="">
-                  <img src={require('./Main_img/partner2.svg')} alt="" />
-                  <p></p>
-                </div>
-                <div className="">
-                  <img src={require('./Main_img/partner4.svg')} alt="" />
-                  <p></p>
-                </div>
-              </div> */}
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#004AAD] py-[60px] text-white">
+            <div className="grid grid-cols-1 lg:grid-cols-5 gap-y-8 max-w-[1560px] mx-auto px-[4%] items-center">
+              <div className=" col-span-1 lg:col-span-3">
+                <p className="font-bold text-white py-[45px] lg:text-[52px] text-3xl sm:text-4xl uppercase">
+                  Вас приветствует ТК "Партнер"
+                </p>
+                <p className=" font-semibold text-base sm:text-lg md:text-xl">
+                  Вас приветствует ТК "Партнер" Приветствуем вас на сайте ТК
+                  “Партнер”.
+                  <b>
+                    {" "}
+                    Компания на протяжении 15 лет поставляет древесные плиты:
+                    ДВП, ДСП, OSB, Латофлекс.
+                  </b>{" "}
+                  Собственный логистический комплекс в Рязани позволяет
+                  оперативно доставлять грузы по всей Центральной России. В
+                  нашем каталоге вы найдете широкий ассортимент материалов.
+                  Прямые контакты с фабриками-производителями и собственная
+                  служба логистика гарантируют оптимальные цены, стандарты
+                  качества и быстрый срок доставки.
+                </p>
+              </div>
+              <div className=" col-span-1 flex justify-center lg:col-span-2">
+                <img src={require("./Main_img/tk-img.png")} alt="" />
+              </div>
             </div>
           </div>
         </div>

@@ -55,3 +55,12 @@
 .Main .slick-dots li button:before {
   font-size: 0;
 }
+.partners {
+  background-image: url(./Main_img/partner-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-clip: inherit;
+  background-attachment: scroll;
+}
