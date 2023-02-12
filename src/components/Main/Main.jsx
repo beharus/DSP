@@ -12,12 +12,47 @@ function Main() {
     autoplaySpeed: 10000,
   };
 
+  const settings1 = {
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 1000,
+    autoplaySpeed: 10000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <div>
       <div className="">
         {/* MAIN */}
-        <div className="Main">
-          <div className=" relative">
+        <div className="">
+          <div className=" Main relative">
             <div className=" w-full h-[70vh] top-[0] left-0">
               <Slider {...settings}>
                 <div className="w-full px-[4%] main-content bg-black">
@@ -189,6 +224,7 @@ function Main() {
               </div>
             </div>
           </div>
+          {/* TK */}
           <div className="bg-[#004AAD] py-[60px] text-white">
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-y-8 max-w-[1560px] mx-auto px-[4%] items-center">
               <div className=" col-span-1 lg:col-span-3">
@@ -214,6 +250,69 @@ function Main() {
               <div className=" col-span-1 flex justify-center lg:col-span-2">
                 <img src={require("./Main_img/tk-img.png")} alt="" />
               </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="">
+              <div className="">
+                <p className="font-bold text-black text-center py-[65px] lg:text-[52px] text-3xl sm:text-4xl uppercase">
+                  каталог продукции
+                </p>
+              </div>
+              <Slider {...settings1}>
+                <div className="">
+                  <img
+                    className="max-w-[370px] mx-auto h-[320px]"
+                    src={require("./Main_img/blog1.png")}
+                    alt=""
+                  />
+                  <p className=" font-normal text-sm md:text-base max-w-[370px] mx-auto">
+                    10 августа 2021
+                  </p>
+                  <p className=" font-bold text-lg md:text-xl max-w-[370px] mx-auto">
+                    Как выбрать ДВП
+                  </p>
+                </div>
+                <div className="">
+                  <img
+                    className="w-[370px] mx-auto h-[320px]"
+                    src={require("./Main_img/blog2.png")}
+                    alt=""
+                  />
+                  <p className=" font-normal text-sm md:text-base max-w-[370px] mx-auto">
+                    10 августа 2021
+                  </p>
+                  <p className=" font-bold text-lg md:text-xl max-w-[370px] mx-auto">
+                    Способы применения фанеры
+                  </p>
+                </div>
+                <div className="">
+                  <img
+                    className="w-[370px] mx-auto h-[320px]"
+                    src={require("./Main_img/blog3.png")}
+                    alt=""
+                  />
+                  <p className=" font-normal text-sm md:text-base max-w-[370px] mx-auto">
+                    10 августа 2021
+                  </p>
+                  <p className=" font-bold text-lg md:text-xl max-w-[370px] mx-auto">
+                    Процесс производства ОСБИ
+                  </p>
+                </div>
+                <div className="">
+                  <img
+                    className="w-[370px] mx-auto h-[320px]"
+                    src={require("./Main_img/product-cat5.png")}
+                    alt=""
+                  />
+                  <p className=" font-normal text-sm md:text-base max-w-[370px] mx-auto">
+                    10 августа 2021
+                  </p>
+                  <p className=" font-bold text-lg md:text-xl max-w-[370px] mx-auto">
+                    Процесс производства AСBE
+                  </p>
+                </div>
+              </Slider>
             </div>
           </div>
         </div>

@@ -52,6 +52,14 @@
   background-color: #ffffff;
   height: 1px;
 }
+.Main .slick-prev::before,
+.Main .slick-next::before{
+  display: none;
+}
+.Main .slick-prev,
+.Main .slick-next{
+  display: none;
+}
 .Main .slick-dots li button:before {
   font-size: 0;
 }
