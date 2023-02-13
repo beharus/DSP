@@ -23,10 +23,9 @@ function Main() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
         },
       },
       {
@@ -252,15 +251,15 @@ function Main() {
               </div>
             </div>
           </div>
-          <div className="">
-            <div className="">
+          <div className=" main-carousel">
+            <div className="max-w-[1560px] my-20 mx-auto px-[4%]">
               <div className="">
                 <p className="font-bold text-black text-center py-[65px] lg:text-[52px] text-3xl sm:text-4xl uppercase">
                   каталог продукции
                 </p>
               </div>
               <Slider {...settings1}>
-                <div className="">
+                <div className="mx-2">
                   <img
                     className="max-w-[370px] mx-auto h-[320px]"
                     src={require("./Main_img/blog1.png")}
@@ -273,9 +272,9 @@ function Main() {
                     Как выбрать ДВП
                   </p>
                 </div>
-                <div className="">
+                <div className="mx-2">
                   <img
-                    className="w-[370px] mx-auto h-[320px]"
+                    className=" w-[95%] max-w-[370px] mx-auto h-[320px]"
                     src={require("./Main_img/blog2.png")}
                     alt=""
                   />
@@ -286,9 +285,9 @@ function Main() {
                     Способы применения фанеры
                   </p>
                 </div>
-                <div className="">
+                <div className="mx-2">
                   <img
-                    className="w-[370px] mx-auto h-[320px]"
+                    className=" w-[95%] max-w-[370px] mx-auto h-[320px]"
                     src={require("./Main_img/blog3.png")}
                     alt=""
                   />
@@ -301,7 +300,7 @@ function Main() {
                 </div>
                 <div className="">
                   <img
-                    className="w-[370px] mx-auto h-[320px]"
+                    className=" w-[95%] max-w-[370px] mx-auto h-[320px]"
                     src={require("./Main_img/product-cat5.png")}
                     alt=""
                   />

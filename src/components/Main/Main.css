@@ -72,3 +72,20 @@
   background-clip: inherit;
   background-attachment: scroll;
 }
+.main-carousel .slick-next::before,
+.main-carousel .slick-prev::before{
+  color: #004AAD;
+  font-size: 40px;
+}
+.main-carousel .slick-next,
+.main-carousel .slick-prev{
+  width: 40px;
+  height: 40px;
+  z-index: 9999999;
+}
+.main-carousel .slick-prev{
+  left: 5px;
+}
+.main-carousel .slick-next{
+  right: -5px;
+}
