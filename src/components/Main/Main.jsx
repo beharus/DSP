@@ -1,5 +1,7 @@
 import "./Main.css";
 import Slider from "react-slick";
+import FormBlue from "../Form-blue/form";
+import Carousel from "../Carousel-js/Carousel";
 
 function Main() {
   const settings = {
@@ -312,6 +314,16 @@ function Main() {
                   </p>
                 </div>
               </Slider>
+            </div>
+          </div>
+          <div className="bg-[#004AAD] py-[60px]">
+            <div className="max-w-[1560px] mx-auto px-[4%]">
+              <FormBlue/>
+            </div>
+          </div>
+          <div className=" py-[60px]">
+            <div className="max-w-[1560px] mx-auto px-[4%]">
+              <Carousel/>
             </div>
           </div>
         </div>
