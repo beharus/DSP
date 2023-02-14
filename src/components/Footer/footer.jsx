@@ -11,7 +11,7 @@ function Footer() {
             <li className="ff1">
               <a href="">
                 <img
-                  class="f1"
+                  className="f1  hover:w-[30px]"
                   src={require("./F_img/facebook.png")}
                   alt="facebook"
                 />
@@ -19,12 +19,12 @@ function Footer() {
             </li>
             <li className="ff1">
               <a href="#">
-                <img src={require("./F_img/wk.png")} alt="wk" />
+                <img className="hover:w-[30px]" src={require("./F_img/wk.png")} alt="wk" />
               </a>
             </li>
             <li className="ff1">
               <a href="#">
-                <img src={require("./F_img/instagram.png")} alt="inst" />
+                <img className="hover:w-[30px]" src={require("./F_img/instagram.png")} alt="inst" />
               </a>
             </li>
           </ol>
