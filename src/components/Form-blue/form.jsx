@@ -4,7 +4,7 @@ const FormBlue =()=>{
     
     
     return(
-       <div className="container py-10 px-[4%]">
+       <div className="container py-10 px-[4%] bg-[#004AAD]">
            <h1 className='vop'>Есть вопросы?</h1>
            <h1 className='vop pb-[2%]'>Заполните форму и мы вам перезвоним!</h1>
            <p className='vop2 pb-[2%]'>Поля, отмеченные звездочкой (*), обязательны для заполнения</p>

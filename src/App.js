@@ -11,6 +11,7 @@ import Dvp from "./components/DVP/dvp";
 import Logistika from "./components/Logistika/log";
 import Dsp from "./components/DSP/dsp";
 import Main from "./components/Main/Main";
+import Postavshik from "./components/postavshik/postavshik";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Logistika" element={<Logistika />} />
         <Route path="/Dvp" element={<Dvp />} />
         <Route path="/Dsp" element={<Dsp />} />
+        <Route path="/Postavshik" element={<Postavshik />} />
       </Routes>
 
       <Footer />
