@@ -36,7 +36,7 @@ function Footer() {
                 <a href="">Главная</a>
               </li>
               <li>
-                <a href="">ТК Партнер</a>
+                <a href="/TkPartner">ТК Партнер</a>
               </li>
               <li>
                 <a href="">Каталог</a>

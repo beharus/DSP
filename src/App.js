@@ -12,6 +12,7 @@ import Logistika from "./components/Logistika/log";
 import Dsp from "./components/DSP/dsp";
 import Main from "./components/Main/Main";
 import Postavshik from "./components/postavshik/postavshik";
+import TkPartner from "./components/Tk_Partner/tkPartner";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/Dvp" element={<Dvp />} />
         <Route path="/Dsp" element={<Dsp />} />
         <Route path="/Postavshik" element={<Postavshik />} />
+        <Route path="/TkPartner" element={<TkPartner />} />
       </Routes>
 
       <Footer />
