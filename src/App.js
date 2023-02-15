@@ -10,13 +10,14 @@ import Fanera from "./components/Fanera/fanera";
 import Dvp from "./components/DVP/dvp";
 import Dsp from "./components/DSP/dsp";
 import Main from "./components/Main/Main";
-import Logistika from "./components/Logistika/log";
+import Postavshik from "./components/postavshik/postavshik";
+import TkPartner from "./components/Tk_Partner/tkPartner";
 
 function App() {
   return (
     <>
       <Navbar />
-
+      
       <Routes>
         <Route path="/Osp" element={<Osp />} />
         <Route path="/Main" element={<Main/>} />
@@ -25,7 +26,8 @@ function App() {
         <Route path="/Fanera" element={<Fanera />} />
         <Route path="/Dvp" element={<Dvp />} />
         <Route path="/Dsp" element={<Dsp />} />
-        <Route path="/logistika" element={<Logistika />} />
+        <Route path="/Postavshik" element={<Postavshik />} />
+        <Route path="/TkPartner" element={<TkPartner />} />
       </Routes>
 
       <Footer />

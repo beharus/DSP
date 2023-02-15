@@ -15,7 +15,7 @@ function Footer() {
             <li className="ff1">
               <a href="">
                 <img
-                  class="f1"
+                  className="f1  hover:w-[30px]"
                   src={require("./F_img/facebook.png")}
                   alt="facebook"
                 />
@@ -23,12 +23,12 @@ function Footer() {
             </li>
             <li className="ff1">
               <a href="#">
-                <img src={require("./F_img/wk.png")} alt="wk" />
+                <img className="hover:w-[30px]" src={require("./F_img/wk.png")} alt="wk" />
               </a>
             </li>
             <li className="ff1">
               <a href="#">
-                <img src={require("./F_img/instagram.png")} alt="inst" />
+                <img className="hover:w-[30px]" src={require("./F_img/instagram.png")} alt="inst" />
               </a>
             </li>
           </ol>
@@ -37,10 +37,10 @@ function Footer() {
           <div className="li">
             <ol>
               <li>
-                <a href="">Главная</a>
+                <a href="/Main">Главная</a>
               </li>
               <li>
-                <a href="">ТК Партнер</a>
+                <a href="/TkPartner">ТК Партнер</a>
               </li>
               <li>
                 <a href="">Каталог</a>
@@ -55,7 +55,7 @@ function Footer() {
                 <a href="">Контакты</a>
               </li>
               <li>
-                <a href="">Поставщик</a>
+                <a href="/Postavshik">Поставщик</a>
               </li>
             </ol>
           </div>
