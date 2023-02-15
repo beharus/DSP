@@ -33,7 +33,7 @@ function Footer() {
           <div className="li">
             <ol>
               <li>
-                <a href="">Главная</a>
+                <a href="/Main">Главная</a>
               </li>
               <li>
                 <a href="/TkPartner">ТК Партнер</a>
