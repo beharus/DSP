@@ -12,11 +12,12 @@ import Dsp from "./components/DSP/dsp";
 import Main from "./components/Main/Main";
 import Postavshik from "./components/postavshik/postavshik";
 import TkPartner from "./components/Tk_Partner/tkPartner";
+import Contact from "./components/Contact/contact";
 
 function App() {
   return (
     <>
-      <Navbar />
+      
       
       <Routes>
         <Route path="/Osp" element={<Osp />} />
@@ -28,6 +29,7 @@ function App() {
         <Route path="/Dsp" element={<Dsp />} />
         <Route path="/Postavshik" element={<Postavshik />} />
         <Route path="/TkPartner" element={<TkPartner />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
 
       <Footer />
