@@ -8,9 +8,9 @@ import Svyaz from "./components/Svyaz/svyaz";
 import { Route, Routes } from "react-router-dom";
 import Fanera from "./components/Fanera/fanera";
 import Dvp from "./components/DVP/dvp";
-import Logistika from "./components/Logistika/log";
 import Dsp from "./components/DSP/dsp";
 import Main from "./components/Main/Main";
+import Logistika from "./components/Logistika/log";
 
 function App() {
   return (
@@ -23,9 +23,9 @@ function App() {
         <Route path="/" element={<Main/>} />
         <Route path="/Latoflex" element={<Latoflex />} />
         <Route path="/Fanera" element={<Fanera />} />
-        <Route path="/Logistika" element={<Logistika />} />
         <Route path="/Dvp" element={<Dvp />} />
         <Route path="/Dsp" element={<Dsp />} />
+        <Route path="/logistika" element={<Logistika />} />
       </Routes>
 
       <Footer />

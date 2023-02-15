@@ -5,7 +5,11 @@ function Footer() {
   return (
     <div className="footer">
       <div className=" max-w-[1560px] mx-auto gap-x-7 lg:gap-0 grid grid-cols-2 lg:grid-cols-5">
-        <img className="logo1 col-span-2 lg:col-span-1 mx-auto" src={require("./logo.png")} alt="" />
+        <img
+          className="logo1 col-span-2 lg:col-span-1 mx-auto"
+          src={require("./logo.png")}
+          alt=""
+        />
         <div className=" my-5 lg:my-0 icon col-span-2 lg:col-span-1 mx-auto">
           <ol className=" flex justify-center gap-5 lg:block lg:my-0 my-5">
             <li className="ff1">
@@ -42,7 +46,7 @@ function Footer() {
                 <a href="">Каталог</a>
               </li>
               <li>
-                <a href="">Логистика</a>
+                <a href="/logistika">Логистика</a>
               </li>
               <li>
                 <a href="">О компании</a>
@@ -58,7 +62,7 @@ function Footer() {
         </div>
         <div className="li2 my-5 lg:my-0 col-span-1">
           <li className="txt2">
-            <a className=" duration-75" href="Dsp">
+            <a className=" duration-75" href="/Dsp">
               ДСП
             </a>
           </li>
@@ -66,7 +70,7 @@ function Footer() {
             <a href="/dvp">ДВП</a>
           </li>
           <li className="txt2">
-            <a href="Fanera">Фанера</a>
+            <a href="/Fanera">Фанера</a>
           </li>
           <li className="txt2">
             <a href="/osp">ОСП</a>
