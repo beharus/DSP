@@ -18,14 +18,14 @@
   text-transform: capitalize;
   color: #ffffff;
 }
-.vop {
+.vopp {
   font-style: normal;
   font-weight: 700;
   font-size: 35.5389px;
   line-height: 40px;
   color: #ffffff;
 }
-.vop2 {
+.vopp2 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -49,7 +49,7 @@ input {
   border: 1.11059px solid #cccccc;
 }
 
-label {
+.teg {
   font-style: normal;
   font-weight: 700;
   font-size: 15.5483px;

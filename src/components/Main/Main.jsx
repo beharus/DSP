@@ -121,7 +121,7 @@ function Main() {
                       alt=""
                     />
                     <p>
-                      надежный
+                      Надежный
                       <br /> поставщик
                     </p>
                   </div>
@@ -163,12 +163,12 @@ function Main() {
                 <div className="grid gap-7 justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
                   <div className=" col-span-1 lg:col-span-1">
                     <img
-                      className="w-full h-[320px] object-cover"
+                      className="w-full justify-center h-[320px] object-cover"
                       src={require("./Main_img/product-cat.png")}
                       alt=""
                     />
                     <a href="" className="font-bold text-black ">
-                      <p className="leading-[30px] md:text-xl text-base sm:text-lg py-7 mb-[5px]">
+                      <p className="leading-[30px] text-center md:text-xl text-base sm:text-lg py-7 mb-[5px]">
                         ДВП
                       </p>
                     </a>
@@ -180,7 +180,7 @@ function Main() {
                       alt=""
                     />
                     <a href="" className="font-bold text-black ">
-                      <p className="leading-[30px] md:text-xl text-base sm:text-lg py-7 mb-[5px]">
+                      <p className="leading-[30px] text-center md:text-xl text-base sm:text-lg py-7 mb-[5px]">
                         ДСП
                       </p>
                     </a>
@@ -192,7 +192,7 @@ function Main() {
                       alt=""
                     />
                     <a href="" className="font-bold text-black ">
-                      <p className="leading-[30px] md:text-xl text-base sm:text-lg py-7 mb-[5px]">
+                      <p className="leading-[30px] text-center md:text-xl text-base sm:text-lg py-7 mb-[5px]">
                         OSB
                       </p>
                     </a>
@@ -204,7 +204,7 @@ function Main() {
                       alt=""
                     />
                     <a href="" className="font-bold text-black ">
-                      <p className="leading-[30px] md:text-xl text-base sm:text-lg py-7 mb-[5px]">
+                      <p className="leading-[30px] text-center md:text-xl text-base sm:text-lg py-7 mb-[5px]">
                         ФАНЕРА
                       </p>
                     </a>
@@ -216,7 +216,7 @@ function Main() {
                       alt=""
                     />
                     <a href="" className="font-bold text-black ">
-                      <p className="leading-[30px] md:text-xl text-base sm:text-lg py-7 mb-[5px]">
+                      <p className="leading-[30px] text-center md:text-xl text-base sm:text-lg py-7 mb-[5px]">
                         ЛАТОФЛЕКС
                       </p>
                     </a>
@@ -232,7 +232,7 @@ function Main() {
                 <p className="font-bold text-white py-[45px] lg:text-[52px] text-3xl sm:text-4xl uppercase">
                   Вас приветствует ТК "Партнер"
                 </p>
-                <p className=" font-semibold text-base sm:text-lg md:text-xl">
+                <p className=" font-semibold text-base sm:text-lg md:text-xl ">
                   Вас приветствует ТК "Партнер" Приветствуем вас на сайте ТК
                   “Партнер”.
                   <b>

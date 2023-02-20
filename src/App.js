@@ -12,17 +12,18 @@ import Dsp from "./components/DSP/dsp";
 import Main from "./components/Main/Main";
 import Postavshik from "./components/postavshik/postavshik";
 import TkPartner from "./components/Tk_Partner/tkPartner";
+import Logistika from "./components/Logistika/log";
 
 function App() {
   return (
     <>
-      <Navbar />
       
       <Routes>
         <Route path="/Osp" element={<Osp />} />
         <Route path="/Main" element={<Main/>} />
         <Route path="/" element={<Main/>} />
         <Route path="/Latoflex" element={<Latoflex />} />
+        <Route path="/logistika" element={<Logistika />} />
         <Route path="/Fanera" element={<Fanera />} />
         <Route path="/Dvp" element={<Dvp />} />
         <Route path="/Dsp" element={<Dsp />} />

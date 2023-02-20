@@ -1,0 +1,140 @@
+.cont {
+  width: 100%;
+  height: auto;
+  text-align: -webkit-center;
+  padding: 12% 0% 7% 0%;
+}
+
+.label1 {
+  width: 463px;
+  height: 46px;
+
+  background: white;
+  border: 1px solid #e6e6e6;
+
+  box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.098);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #575757;
+}
+
+.label2 {
+  width: 452px;
+  height: 46px;
+  margin-top: -13px;
+  background: #ffffff;
+  box-shadow: 3px 2px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #575757;
+}
+
+.inp {
+  width: 15px;
+  background: linear-gradient(237.05deg, #004aad 12.76%, #004aad 147.88%);
+  border: 1px solid black;
+}
+
+.logist {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.label1:hover {
+  width: 563px;
+  height: 56px;
+  border: none;
+  box-shadow: 3px 2px 30px rgba(0, 0, 0, 0.269);
+  color: rgb(0, 0, 0);
+  font-size: 26px;
+  transition-duration: 800ms;
+}
+
+.svyazz {
+  color: #ffffff;
+}
+
+.label2:hover {
+  color: black;
+}
+
+/* The label1 */
+.label1 {
+  display: flex;
+  padding-left: 35px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.label1 input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  margin-top: -2px;
+  margin-left: -20px;
+  border: 1px solid rgba(128, 128, 128, 0.29);
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+/* On mouse-over, add a grey background color */
+.label1:hover input ~ .checkmark {
+  width: 25px;
+  height: 25px;
+  transition-duration: 500ms;
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.label1 input:checked ~ .checkmark {
+  background-color: #0011af;
+  border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.label1 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.label1 .checkmark:after {
+  left: 7.5px;
+  top: 3.5999999999999996px;
+  width: 6px;
+  height: 11px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+
