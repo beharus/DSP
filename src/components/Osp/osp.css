@@ -21,7 +21,7 @@
 
 }
 
-#gosplow{
+#gosplow {
     padding: 5% 4%;
     font-size: 23px;
 }
@@ -50,11 +50,12 @@
     font-weight: 300;
 
 }
+
 #osp3AAA {
     font-family: 'Montserrat';
     font-style: normal;
     color: aliceblue;
-    
+
     font-weight: 200;
 }
 
@@ -166,6 +167,21 @@
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 2%;
+
+}
+
+.btn-Contact {
+     padding: 20px 30px;
+
+    background: #E31E24;
+    box-shadow: 6px 10px 30px 2px #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+
+    text-transform: uppercase;
+
 
 }
 
