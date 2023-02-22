@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel from "../Carousel-js/Carousel";
 import Form from "../Form/form";
 import Svyaz from "../Svyaz/svyaz";
 import "./log.css";
@@ -48,7 +49,7 @@ function Logistika() {
           Осуществление доставки
         </label>
       </div>
-
+   
       <div className=" flex flex-wrap justify-center svyazz bg-[#004aad]">
         <label className="logist text-white text-4xl font-bold md:text-5xl text-center mt-[4rem]">
           контакты логиста
@@ -64,6 +65,7 @@ function Logistika() {
       </div>
 
       <Form />
+      <Carousel/>
     </div>
   );
 }

@@ -12,19 +12,13 @@ import Dsp from "./components/DSP/dsp";
 import Main from "./components/Main/Main";
 import Postavshik from "./components/postavshik/postavshik";
 import TkPartner from "./components/Tk_Partner/tkPartner";
-<<<<<<< HEAD
-import Logistika from "./components/Logistika/log";
-=======
 import Contact from "./components/Contact/contact";
->>>>>>> 088915a132cd37ad45a050ae197e9405be7a66a3
+import Logistika from "./components/Logistika/log";
 
 function App() {
   return (
     <>
-<<<<<<< HEAD
-=======
       
->>>>>>> 088915a132cd37ad45a050ae197e9405be7a66a3
       
       <Routes>
         <Route path="/Osp" element={<Osp />} />
