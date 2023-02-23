@@ -1,0 +1,10 @@
+.cbb {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.inp {
+    width: 100%;
+    height: auto;
+}
