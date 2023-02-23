@@ -4,9 +4,6 @@
 }
 .nav{
     background-color:  #004AAD;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
 }
 .logo{
     width: 100px;
@@ -38,4 +35,7 @@
 a{
     text-decoration: none;
     color: #fff;
+}
+#mob-nav.active{
+    right: 0;
 }

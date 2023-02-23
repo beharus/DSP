@@ -5,28 +5,28 @@ const FormBlue =()=>{
     
     return(
        <div className="container py-10 px-[4%] bg-[#004AAD]">
-           <h1 className='vop'>Есть вопросы?</h1>
-           <h1 className='vop pb-[2%]'>Заполните форму и мы вам перезвоним!</h1>
-           <p className='vop2 pb-[2%]'>Поля, отмеченные звездочкой (*), обязательны для заполнения</p>
+           <h1 className='vopp'>Есть вопросы?</h1>
+           <h1 className='vopp pb-[2%]'>Заполните форму и мы вам перезвоним!</h1>
+           <p className='vopp2 pb-[2%]'>Поля, отмеченные звездочкой (*), обязательны для заполнения</p>
            <div className='form grid grid-cols-2 gap-5'>
 
               <div className=' col-span-2 lg:w-auto lg:col-span-1 '>
-                <label>Имя *</label><br />
+                <label className='teg'>Имя *</label><br />
                 <input className=' w-full' type="text" />
               </div>
 
               <div className='col-span-2 lg:w-auto lg:col-span-1 '>
-                <label className='fy'>Фамилия</label><br />
+                <label className='teg'>Фамилия</label><br />
                 <input className=' w-full' type="text" />
               </div>
 
               <div className='col-span-2 lg:w-auto lg:col-span-1 '>
-                <label>E-mail *</label><br />
+                <label className='teg'>E-mail *</label><br />
                 <input className=' w-full' id='gmail' type="text" />
               </div>
 
               <div className='col-span-2 lg:w-auto lg:col-span-1 '>
-                <label className='fy'>Телефон *</label><br />
+                <label className='teg'>Телефон *</label><br />
                 <input className=' w-full' type="number" ></input>
               </div>
 

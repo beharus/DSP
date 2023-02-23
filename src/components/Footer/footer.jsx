@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "./footer.css";
+import React from "react";
+import './footer.css'
 
 function Footer() {
   return (
@@ -23,12 +23,20 @@ function Footer() {
             </li>
             <li className="ff1">
               <a href="#">
-                <img className="hover:w-[30px]" src={require("./F_img/wk.png")} alt="wk" />
+                <img
+                  className="hover:w-[30px]"
+                  src={require("./F_img/wk.png")}
+                  alt="wk"
+                />
               </a>
             </li>
             <li className="ff1">
               <a href="#">
-                <img className="hover:w-[30px]" src={require("./F_img/instagram.png")} alt="inst" />
+                <img
+                  className="hover:w-[30px]"
+                  src={require("./F_img/instagram.png")}
+                  alt="inst"
+                />
               </a>
             </li>
           </ol>
@@ -49,7 +57,7 @@ function Footer() {
                 <a href="/logistika">Логистика</a>
               </li>
               <li>
-                <a href="">О компании</a>
+                <a href="/logistika1">О компании</a>
               </li>
               <li>
                 <a href="/Contact">Контакты</a>

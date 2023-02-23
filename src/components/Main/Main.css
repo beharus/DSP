@@ -2,11 +2,11 @@
   background-image: url(./Main_img/bg-image.svg);
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
   background-size: cover;
   background-clip: inherit;
   background-attachment: scroll;
   height: 70vh;
+  max-height: 700px;
 }
 .main-content2 {
   background-image: url(./Main_img/bg-image2.svg);
@@ -17,6 +17,7 @@
   background-clip: inherit;
   background-attachment: scroll;
   height: 70vh;
+  max-height: 700px;
 }
 .main-content3 {
   background-image: url(./Main_img/bg-image3.svg);
@@ -27,6 +28,7 @@
   background-clip: inherit;
   background-attachment: scroll;
   height: 70vh;
+  max-height: 700px;
 }
 .main-btn {
   background: #e31e24;

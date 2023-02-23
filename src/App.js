@@ -18,13 +18,22 @@ import Logistika from "./components/Logistika/log";
 function App() {
   return (
     <>
+<<<<<<< HEAD
       <Navbar />
+=======
+      
+      <Navbar/>
+>>>>>>> 41a1801016173d330765aeae30394fb3f3a6b104
       <Routes>
         <Route path="/Osp" element={<Osp />} />
         <Route path="/Main" element={<Main/>} />
         <Route path="/" element={<Main/>} />
         <Route path="/Latoflex" element={<Latoflex />} />
+<<<<<<< HEAD
         <Route path="/logistika" element={<Logistika/>} />
+=======
+        <Route path="/logistika" element={<Logistika />} />
+>>>>>>> 41a1801016173d330765aeae30394fb3f3a6b104
         <Route path="/Fanera" element={<Fanera />} />
         <Route path="/Dvp" element={<Dvp />} />
         <Route path="/Dsp" element={<Dsp />} />
