@@ -13,7 +13,7 @@ const Navbar = () => {
             <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/main">ГЛАВНАЯ</a></li>
             <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/katalog">КАТАЛОГ</a></li>
             <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="">О КОМПАНИИ</a></li>
-            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="">КОНТАКТЫ</a></li>
+            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/Contact">КОНТАКТЫ</a></li>
           </div>
 
           <div className="lg:hidden block relative">
