@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       
-      
+      <Navbar/>
       <Routes>
         <Route path="/Osp" element={<Osp />} />
         <Route path="/Main" element={<Main/>} />

@@ -54,10 +54,10 @@ function Main() {
         {/* MAIN */}
         <div className="">
           <div className=" Main relative">
-            <div className=" w-full h-[70vh] top-[0] left-0">
+            <div className=" max-w-[1560px] w-[98vw] mx-auto m-0 max-h-[700px] h-[70vh] top-[0] left-0">
               <Slider {...settings}>
                 <div className="w-full px-[4%] main-content bg-black">
-                  <div className=" h-[70vh] flex justify-center items-center ">
+                  <div className=" max-h-[700px] h-[70vh] flex justify-center items-center ">
                     <div className="">
                       <p className="font-bold px-9 py-8 bg-[#004AADCC] lg:text-[52px] text-3xl sm:text-4xl text-white">
                         Широкий ассортимент
@@ -72,8 +72,8 @@ function Main() {
                     </div>
                   </div>
                 </div>
-                <div className="w-full main-content2 bg-black">
-                  <div className=" h-[70vh] flex justify-center items-center ">
+                <div className="w-full px-[4%] main-content2 bg-black">
+                  <div className=" max-h-[700px] h-[70vh] flex justify-center items-center ">
                     <div className="">
                       <p className="font-bold px-9 py-8 bg-[#004AADCC] lg:text-[52px] text-3xl sm:text-4xl text-white">
                         ДСП -
@@ -87,8 +87,8 @@ function Main() {
                     </div>
                   </div>
                 </div>
-                <div className="w-full main-content3 bg-black">
-                  <div className=" h-[70vh] flex justify-center items-center ">
+                <div className="w-full px-[4%] main-content3 bg-black">
+                  <div className=" max-h-[700px] h-[70vh] flex justify-center items-center ">
                     <div className="">
                       <p className="font-bold px-9 py-8 bg-[#004AADCC] lg:text-[52px] text-3xl sm:text-4xl text-white">
                         ДВП -
@@ -318,12 +318,12 @@ function Main() {
           </div>
           <div className="bg-[#004AAD] py-[60px]">
             <div className="max-w-[1560px] mx-auto px-[4%]">
-              <FormBlue/>
+              <FormBlue />
             </div>
           </div>
           <div className=" py-[60px]">
             <div className="max-w-[1560px] mx-auto px-[4%]">
-              <Carousel/>
+              <Carousel />
             </div>
           </div>
         </div>
