@@ -11,8 +11,8 @@ const Navbar = () => {
 
           <div className="lg:flex hidden gap-4 lg:gap-8">
             <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/main">ГЛАВНАЯ</a></li>
-            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/katalog">КАТАЛОГ</a></li>
-            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="">О КОМПАНИИ</a></li>
+            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/osp">ОСП</a></li>
+            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/aboutCompany">О КОМПАНИИ</a></li>
             <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/Contact">КОНТАКТЫ</a></li>
           </div>
 
@@ -35,9 +35,9 @@ const Navbar = () => {
                 <img className=' absolute top-3 right-3' src={require('./x-symbol.png')} alt="" />
                 <div className="">
                   <li className='menu'><a className='transition-colors hover:text-[#e62323] duration-200' href="/main">ГЛАВНАЯ</a></li>
-                  <li className='menu'><a className='transition-colors hover:text-[#e62323] duration-200' href="">КАТАЛОГ</a></li>
-                  <li className='menu'><a className='transition-colors hover:text-[#e62323] duration-200' href="">О КОМПАНИИ</a></li>
-                  <li className='menu'><a className='transition-colors hover:text-[#e62323] duration-200' href="">КОНТАКТЫ</a></li>
+                  <li className='menu'><a className='transition-colors hover:text-[#e62323] duration-200' href="/osp">ОСП</a></li>
+                  <li className='menu'><a className='transition-colors hover:text-[#e62323] duration-200' href="/aboutCompany">О КОМПАНИИ</a></li>
+                  <li className='menu'><a className='transition-colors hover:text-[#e62323] duration-200' href="/Contact">КОНТАКТЫ</a></li>
                 </div>
               </div>
             </div>

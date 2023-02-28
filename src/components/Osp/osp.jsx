@@ -7,7 +7,6 @@ function Osp() {
   return (
     <div className="">
       <img id="img1" src={require("./osp_img/img1.png")} alt="img1" />
-
       <div id="bg">
         <div id="gosp" className=" max-w-[1560px] mx-auto">
           <p className="text-4xl font-bold md:text-5xl text-white my-14" id="">
@@ -48,7 +47,6 @@ function Osp() {
           </ul>
         </div>
       </div>
-
       <div className="gosp2  max-w-[1560px] mx-auto">
         <p className="text-4xl font-bold md:text-5xl text-center my-16">
           ВИДЫ ОСП:
@@ -75,7 +73,6 @@ function Osp() {
           </div>
         </div>
       </div>
-
       <div className="gosp3">
         <div className=" max-w-[1560px] mx-auto px-[4%]">
           <p className="text-4xl font-bold md:text-5xl pb-[3%] text-white">
@@ -93,7 +90,29 @@ function Osp() {
             которую можно использовать не один раз.{" "}
           </p>
           <div className="btn1 flex">
-            <button className="btn flex flex-wrap gap-3 justify-center items-center hover:text-2xl duration-300">
+            <button
+              onClick={() => {
+                if (
+                  document.querySelector(".modal").className.includes("hidden")
+                ) {
+                  document.querySelector(".modal").classList.add("flex");
+                  document.querySelector(".modal").classList.remove("hidden");
+                }
+                document
+                  .querySelector(".modal")
+                  .addEventListener("click", () => {
+                    document.querySelector(".modal").classList.add("hidden");
+                    document.querySelector(".modal").classList.remove("flex");
+                  });
+                document.addEventListener("keyup", (e) => {
+                  if (e.key == "Escape") {
+                    document.querySelector(".modal").classList.add("hidden");
+                    document.querySelector(".modal").classList.remove("flex");
+                  }
+                  console.log(e);
+                });
+              }}
+              className="btn flex flex-wrap gap-3 justify-center items-center hover:text-2xl duration-300">
               {" "}
               Заказать КП{" "}
               <img
@@ -109,11 +128,29 @@ function Osp() {
         <p className="text-4xl md:text-5xl font-bold lg:leading-[78px] pb-2 mt-16 text-center">
           Как связаться с отделом продаж
         </p>
-        <Svyaz  />
+        <Svyaz name="Asomiddin" lastname="Firdavs" numb="+998994168682" />
       </div>
       <div className=" py-20">
         <Form />
       </div>
+      onClick=
+      {() => {
+        if (document.querySelector(".modal").className.includes("hidden")) {
+          document.querySelector(".modal").classList.add("flex");
+          document.querySelector(".modal").classList.remove("hidden");
+        }
+        document.querySelector(".modal").addEventListener("click", () => {
+          document.querySelector(".modal").classList.add("hidden");
+          document.querySelector(".modal").classList.remove("flex");
+        });
+        document.addEventListener("keyup", (e) => {
+          if (e.key == "Escape") {
+            document.querySelector(".modal").classList.add("hidden");
+            document.querySelector(".modal").classList.remove("flex");
+          }
+          console.log(e);
+        });
+      }}
     </div>
   );
 }

@@ -66,7 +66,43 @@ function Main() {
                         <br />
                         материалов
                       </p>
-                      <button className="main-btn text-white w-[250px] h-[80px] rounded-sm uppercase font-bold hover:text-2xl duration-300 md:text-xl">
+                      <button
+                        onClick={() => {
+                          if (
+                            document
+                              .querySelector(".modal")
+                              .className.includes("hidden")
+                          ) {
+                            document
+                              .querySelector(".modal")
+                              .classList.add("flex");
+                            document
+                              .querySelector(".modal")
+                              .classList.remove("hidden");
+                          }
+                          document
+                            .querySelector(".modal")
+                            .addEventListener("click", () => {
+                              document
+                                .querySelector(".modal")
+                                .classList.add("hidden");
+                              document
+                                .querySelector(".modal")
+                                .classList.remove("flex");
+                            });
+                          document.addEventListener("keyup", (e) => {
+                            if (e.key == "Escape") {
+                              document
+                                .querySelector(".modal")
+                                .classList.add("hidden");
+                              document
+                                .querySelector(".modal")
+                                .classList.remove("flex");
+                            }
+                            console.log(e);
+                          });
+                        }}
+                        className="main-btn text-white w-[250px] h-[80px] rounded-sm uppercase font-bold hover:text-2xl duration-300 md:text-xl">
                         позвонить &gt;
                       </button>
                     </div>
@@ -324,6 +360,24 @@ function Main() {
           <div className=" py-[60px]">
             <div className="max-w-[1560px] mx-auto px-[4%]">
               <Carousel />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* modal */}
+      <div className="modal fixed hidden justify-center items-center z-50 top-0 bottom-0 left-0 right-0 bg-[#35353591]">
+        <div className="w-[300px] bg-white rounded p-4 h-[350px]">
+          <div className="">
+            <div className=" text-6xl font-semibold text-green-500 border-b-2 mt-5 pb-2">
+              Спасибо
+            </div>
+            <div className=" mt-4 text-2xl text-center">
+              Мы позвоним вам в течение 24 часа
+            </div>
+            <div className=" text-6xl mt-5 text-center">✅</div>
+            <div className=" text-center mt">
+              click <b>Escape</b> to exit
             </div>
           </div>
         </div>

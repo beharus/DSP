@@ -1,5 +1,5 @@
 import React from 'react'
-import FormBlue from '../Form-blue/form';
+import Form from '../Form/form';
 
 const Postavshik = () => {
     return (
@@ -69,7 +69,7 @@ const Postavshik = () => {
 
            {/* Form blue*/}
 
-           <FormBlue />
+           <Form />
 
         </div>
     )

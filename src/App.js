@@ -1,10 +1,8 @@
 import Navbar from "./components/Navbar/Navbar";
-import Form from "./components/Form/form";
 import "./App.css";
 import Footer from "./components/Footer/footer";
 import Osp from "./components/Osp/osp";
 import Latoflex from "./components/Lato-flex/latoflex";
-import Svyaz from "./components/Svyaz/svyaz";
 import { Route, Routes } from "react-router-dom";
 import Fanera from "./components/Fanera/fanera";
 import Dvp from "./components/DVP/dvp";
@@ -14,6 +12,7 @@ import Postavshik from "./components/postavshik/postavshik";
 import TkPartner from "./components/Tk_Partner/tkPartner";
 import Contact from "./components/Contact/contact";
 import Logistika from "./components/Logistika/log";
+import AboutKompany from "./components/AboutKompany/AboutKompany";
 
 function App() {
   return (
@@ -32,6 +31,7 @@ function App() {
         <Route path="/Postavshik" element={<Postavshik />} />
         <Route path="/TkPartner" element={<TkPartner />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/aboutCompany" element={<AboutKompany />} />
       </Routes>
 
       <Footer />

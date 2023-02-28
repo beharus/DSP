@@ -57,7 +57,7 @@ function Footer() {
                 <a href="/logistika">Логистика</a>
               </li>
               <li>
-                <a href="/logistika1">О компании</a>
+                <a href="/aboutCompany">О компании</a>
               </li>
               <li>
                 <a href="/Contact">Контакты</a>
