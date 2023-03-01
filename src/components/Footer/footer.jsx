@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './footer.css'
+import "./footer.css";
 
 function Footer() {
   return (
@@ -14,31 +14,31 @@ function Footer() {
         <div className=" my-5 lg:my-0 icon col-span-2 lg:col-span-1 mx-auto">
           <ol className=" flex justify-center gap-5 lg:block lg:my-0 my-5">
             <li className="ff1">
-              <a href="">
+              <Link to="">
                 <img
                   className="f1  hover:w-[30px]"
                   src={require("./F_img/facebook.png")}
                   alt="facebook"
                 />
-              </a>
+              </Link>
             </li>
             <li className="ff1">
-              <a href="#">
+              <Link to="#">
                 <img
                   className="hover:w-[30px]"
                   src={require("./F_img/wk.png")}
                   alt="wk"
                 />
-              </a>
+              </Link>
             </li>
             <li className="ff1">
-              <a href="#">
+              <Link to="#">
                 <img
                   className="hover:w-[30px]"
                   src={require("./F_img/instagram.png")}
                   alt="inst"
                 />
-              </a>
+              </Link>
             </li>
           </ol>
         </div>
@@ -46,46 +46,46 @@ function Footer() {
           <div className="li">
             <ol>
               <li>
-                <Link href="/Main">Главная</Link>
+                <Link to="/main">Главная</Link>
               </li>
               <li>
-                <Link  to="/TkPartner">ТК Партнер</Link>
+                <Link to="/TkPartner">ТК Партнер</Link>
               </li>
               <li>
-                <Link href="">Каталог</Link>
+                <Link to="/logistika">Каталог</Link>
               </li>
               <li>
-                <Link href="/logistika">Логистика</Link>
+                <Link to="/logistika">Логистика</Link>
               </li>
               <li>
-                <Link href="/aboutCompany">О компании</Link>
+                <Link to="/aboutCompany">О компании</Link>
               </li>
               <li>
-                <Link href="/Contact">Контакты</Link>
+                <Link to="/Contact">Контакты</Link>
               </li>
               <li>
-                <Link href="/Postavshik">Поставщик</Link>
+                <Link to="/Postavshik">Поставщик</Link>
               </li>
             </ol>
           </div>
         </div>
         <div className="li2 my-5 lg:my-0 col-span-1">
           <li className="txt2">
-            <a className=" duration-75" href="/Dsp">
+            <Link className=" duration-75" to="/Dsp">
               ДСП
-            </a>
+            </Link>
           </li>
           <li className="txt2">
-            <a href="/dvp">ДВП</a>
+            <Link to="/dvp">ДВП</Link>
           </li>
           <li className="txt2">
-            <a href="/Fanera">Фанера</a>
+            <Link to="/Fanera">Фанера</Link>
           </li>
           <li className="txt2">
-            <a href="/osp">ОСП</a>
+            <Link to="/osp">ОСП</Link>
           </li>
           <li className="txt2">
-            <a href="/latoflex">Латофлекс</a>
+            <Link to="/latoflex">Латофлекс</Link>
           </li>
         </div>
         <div className="cts my-5 lg:my-0 lg:col-span-1 col-span-2">
