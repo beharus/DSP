@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Pic1 from './logo.png';
 import Pic2 from './menu.png';
 import './navbar.css'
@@ -10,10 +11,10 @@ const Navbar = () => {
           <img className='logo' src={Pic1} alt="logo" />
 
           <div className="lg:flex hidden gap-4 lg:gap-8">
-            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/main">ГЛАВНАЯ</a></li>
-            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/osp">ОСП</a></li>
-            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/aboutCompany">О КОМПАНИИ</a></li>
-            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><a href="/Contact">КОНТАКТЫ</a></li>
+            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><Link to="/main">ГЛАВНАЯ</Link></li>
+            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><Link to="/osp">ОСП</Link></li>
+            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><Link to="/aboutCompany">О КОМПАНИИ</Link></li>
+            <li className='menu hover:bg-[#e62323] px-2 rounded-t-3xl'><Link to="/Contact">КОНТАКТЫ</Link></li>
           </div>
 
           <div className="lg:hidden block relative">
@@ -34,10 +35,10 @@ const Navbar = () => {
               }} className="">
                 <img className=' absolute top-3 right-3' src={require('./x-symbol.png')} alt="" />
                 <div className="">
-                  <li className='menu'><a className='transition-colors hover:text-[#e62323] duration-200' href="/main">ГЛАВНАЯ</a></li>
-                  <li className='menu'><a className='transition-colors hover:text-[#e62323] duration-200' href="/osp">ОСП</a></li>
-                  <li className='menu'><a className='transition-colors hover:text-[#e62323] duration-200' href="/aboutCompany">О КОМПАНИИ</a></li>
-                  <li className='menu'><a className='transition-colors hover:text-[#e62323] duration-200' href="/Contact">КОНТАКТЫ</a></li>
+                  <li className='menu'><Link className='transition-colors hover:text-[#e62323] duration-200' to="/main">ГЛАВНАЯ</Link></li>
+                  <li className='menu'><Link className='transition-colors hover:text-[#e62323] duration-200' to="/osp">ОСП</Link></li>
+                  <li className='menu'><Link className='transition-colors hover:text-[#e62323] duration-200' to="/aboutCompany">О КОМПАНИИ</Link></li>
+                  <li className='menu'><Link className='transition-colors hover:text-[#e62323] duration-200' to="/Contact">КОНТАКТЫ</Link></li>
                 </div>
               </div>
             </div>

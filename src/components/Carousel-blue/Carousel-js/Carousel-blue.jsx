@@ -37,7 +37,7 @@ function CarouselBlue(props) {
   };
   return (
     <div>
-      <div className=" main-carousel">
+      <div className=" bg-blue texmain-carousel text">
         <div className="max-w-[1560px] my-20 mx-auto px-[4%]">
           <div className="">
             <p className="font-bold text-black text-center py-[65px] lg:text-[52px] text-3xl sm:text-4xl uppercase">
